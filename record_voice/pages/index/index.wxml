@@ -1,0 +1,16 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="voice">
+    <button type="primary" size="default" hover-class="button-hover" disabled="{{voiceButtonDisable}}" class="button-voice" bindtap="tapVoiceButton">{{voiceButtonName}}</button>
+
+    <!--<button type="primary" size="default" hover-class="button-hover" class="button-voice-play" bindtap="tapVoicePlayButton">{{voicePlayButtonName}}</button>-->
+    <!--<button type="default" size="default" hover-class="button-hover" class="button-bpPage" bindtap="bpPageBtnTap">血压结果页面</button>-->
+    <button type="primary" size="default" hover-class="button-hover" class="button-voice-play" bindtap="scanBtnTap">扫码识别</button>
+    <button type="primary" size="default" hover-class="button-hover" class="button-voice-play" bindtap="imgBtnTap">图片识别</button>
+  </view>
+</view>

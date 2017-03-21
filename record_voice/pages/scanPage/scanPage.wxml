@@ -1,0 +1,6 @@
+
+<!--pages/scanPage/scanPage.wxml-->
+<view class="scanContainer">
+  <text>{{scanValue}}</text>
+  <button type="primary" size="default" class="button-scan" bindtap="tapScanButton">扫一扫</button>
+</view>

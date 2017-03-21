@@ -1,0 +1,5 @@
+<!--pages/voicePage/voicePage.wxml-->
+
+<view class="voiceView">
+    <text>{{voiceText}}</text>
+</view>

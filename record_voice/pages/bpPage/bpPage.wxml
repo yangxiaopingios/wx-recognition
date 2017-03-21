@@ -1,0 +1,26 @@
+
+<!--bpPage.wxml-->
+<view class="containerView">
+  <view class="ihView">
+    <view class="highBpView">
+      <text class="highBpText">高压\nmmHg</text>
+    </view>
+    <view class="lowBpView">
+      <text class="lowBpText">低压\nmmHg</text>
+    </view>
+    <view class="heartBpView">
+      <text class="heartBpText">心率\nmmHg</text>
+    </view>
+  </view>
+  <view class="ihView">
+    <view class="highBpView">
+      <text class="highBp">{{highBpData}}</text>
+    </view>
+    <view class="lowBpView">
+      <text class="lowBp">{{lowBpData}}</text>
+    </view>
+    <view class="heartBpView">
+      <text class="heartBp">{{heartBpData}}</text>
+    </view>
+  </view>
+</view>

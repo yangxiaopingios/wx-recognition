@@ -1,0 +1,91 @@
+/**index.wxss**/
+
+.containerView {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.ihView {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.highBpView {
+  height: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.highBpText {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  margin-top: -19px;
+  text-align: center;
+  width: 100%;
+}
+
+.lowBpView {
+  height: 34%;
+  position: relative;
+  text-align: center;
+}
+
+.lowBpText {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -19px;
+  text-align: center;
+  width: 100%;
+}
+
+.heartBpView {
+  height: 33%;
+  position: relative;
+  text-align: center;
+}
+
+.heartBpText {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin-top: -19px;
+  text-align: center;
+  width: 100%;
+}
+
+.highBp {
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  margin-top: -30px;
+  text-align: center;
+  width: 100%;
+}
+
+.lowBp {
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  margin-top: -30px;
+  text-align: center;
+  width: 100%;
+}
+
+.heartBp {
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  margin-top: -25px;
+  text-align: center;
+  width: 100%;
+}
